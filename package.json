@@ -7,7 +7,7 @@
     "dev:mix": "mix watch",
     "build:eleventy": "eleventy",
     "build:mix": "mix --production",
-    "build": "npm-run-all clean -p prod:*"
+    "build": "npm-run-all clean -p build:*"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
