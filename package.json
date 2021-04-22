@@ -5,9 +5,9 @@
     "dev": "npm-run-all clean -p dev:*",
     "dev:eleventy": "eleventy --serve --quiet",
     "dev:mix": "mix watch",
-    "prod:eleventy": "eleventy",
-    "prod:mix": "mix --production",
-    "prod": "npm-run-all clean -p prod:*"
+    "build:eleventy": "eleventy",
+    "build:mix": "mix --production",
+    "build": "npm-run-all clean -p prod:*"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
