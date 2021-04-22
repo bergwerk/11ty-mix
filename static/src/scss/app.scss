@@ -1,12 +1,16 @@
-// Configuration
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/mixins";
-@import "~bootstrap/scss/utilities";
+//
+// Bring in Bootstrap
+//
 
+// Option 1
 //
-// Override ~bootstrap here
+// Import all of Bootstrap's CSS
+
+// @import "bootstrap/scss/bootstrap";
+
+// Option 2
 //
+// Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
 
 // Toggle global options
 $enable-gradients: false;
@@ -16,6 +20,16 @@ $enable-shadows: true;
 //$body-color: $purple;
 //$body-bg: #f5f5f5;
 //$border-radius: .4rem;
+
+// Configuration
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+
+//
+// Override ~bootstrap here
+//
 
 // Layout & components
 @import "~bootstrap/scss/root";
